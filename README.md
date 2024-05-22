@@ -39,21 +39,25 @@
 
 # Скриншоты приложения:
 
-![Главная страница](https://github.com/Fealerok/PhonePay/blob/main/ScreensForRepository/MainMenu.png)
+![Главная страница](https://github.com/Fealerok/MetallurgicalPlant/blob/main/ScreensForRepository/1_MainMenu.png)
 ## Главная страница
 </br> </br> </br>
 
-![Страница ввода номера телефона](https://github.com/Fealerok/PhonePay/blob/main/ScreensForRepository/EnterPhonePage.png)
-## Страница ввода номера телефона </br>
+![Список работников](https://github.com/Fealerok/MetallurgicalPlant/blob/main/ScreensForRepository/2_ListOfWorkers.png)
+## Список работников </br>
 </br> </br> </br>
 
-![Окно ввода суммы денег](https://github.com/Fealerok/PhonePay/blob/main/ScreensForRepository/EnterMoneyPage.png)
-## Окно ввода суммы денег </br>
+![Добавление нового сотрудника](https://github.com/Fealerok/MetallurgicalPlant/blob/main/ScreensForRepository/3_AddingWorker.png)
+## Добавление нового сотрудника </br>
 </br> </br> </br>
 
-![Страница поиска](https://github.com/Fealerok/PhonePay/blob/main/ScreensForRepository/SearchPage.png)
-## Страница поиска </br>
+![Список складов](https://github.com/Fealerok/MetallurgicalPlant/blob/main/ScreensForRepository/4_ListOfWarehouses.png)
+## Список складов </br>
 </br> </br> </br>
 
-![Страница поиска с визуализацией работы](https://github.com/Fealerok/PhonePay/blob/main/ScreensForRepository/SearchPage(Visualization%20of%20work).png)
-## Визуализация работы поиска </br>
+![Добавление нового склада](https://github.com/Fealerok/MetallurgicalPlant/blob/main/ScreensForRepository/5_AddingWarehouse.png)
+## Добавление нового склада </br>
+</br> </br> </br>
+
+![Создание рельс](https://github.com/Fealerok/MetallurgicalPlant/blob/main/ScreensForRepository/6_MakingProducts.png)
+## Создание рельс </br>
