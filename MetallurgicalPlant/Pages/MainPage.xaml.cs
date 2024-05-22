@@ -1,0 +1,43 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows;
+using System.Windows.Controls;
+using System.Windows.Data;
+using System.Windows.Documents;
+using System.Windows.Input;
+using System.Windows.Media;
+using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
+using System.Windows.Shapes;
+using LoggerLibrary;
+
+namespace MetallurgicalPlant.Pages
+{
+    /// <summary>
+    /// Логика взаимодействия для MainPage.xaml
+    /// </summary>
+    public partial class MainPage : Page
+    {
+        public MainPage()
+        {
+            InitializeComponent();
+        }
+
+        /// <summary>
+        /// Метод для перехода на другую страницу
+        /// </summary>
+        /// <param name="sender">Объект кнопка</param>
+        /// <param name="e">Объект событий</param>
+        private void OpenNextPage(object sender, RoutedEventArgs e)
+        {
+            Button clickedButton = sender as Button;
+
+            NavigationFrame.Navigate(new Uri($"Pages/{clickedButton.Name}.xaml", UriKind.Relative));
+
+            new Logger().MakeLog("Нажата кнопка перехода на другую страницу");
+        }
+    }
+}

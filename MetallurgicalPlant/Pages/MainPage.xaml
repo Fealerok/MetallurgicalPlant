@@ -1,0 +1,43 @@
+﻿<Page x:Class="MetallurgicalPlant.Pages.MainPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:MetallurgicalPlant.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="MainPage" Background="White" MinWidth="1920" MinHeight="1040">
+
+    
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="150"></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="500"></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition Width="500"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <Rectangle Fill="LightGray" Grid.ColumnSpan="3"></Rectangle>
+        <TextBox Background="Transparent" Text="MetallurgicalPlant" Grid.Column="1" FontSize="70" VerticalAlignment="Center" HorizontalAlignment="Center" IsReadOnly="True" BorderThickness="0" ></TextBox>
+
+        <Grid Grid.Row="1" Grid.Column="1">
+            <Grid.RowDefinitions>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+
+            <Button Content="Список сотрудников" FontSize="50" MaxWidth="700" MaxHeight="200" BorderThickness="1" BorderBrush="Black" FontWeight="Bold" FontFamily="Candara" Cursor="Hand" Name="ListOfWorkers" Click="OpenNextPage"></Button>
+            <Button Grid.Row="1" MaxWidth="700" MaxHeight="200" BorderThickness="1" BorderBrush="Black" Cursor="Hand" Name="ListOfWarehouses" Click="OpenNextPage">
+                <TextBox TextWrapping="Wrap" Text="Список складов" Background="Transparent" FontSize="50" FontWeight="Bold" FontFamily="Candara" BorderThickness="0" IsReadOnly="True" Cursor="Arrow"></TextBox>
+            </Button>
+        </Grid>
+
+        <Frame Name="NavigationFrame" Grid.ColumnSpan="3" Grid.RowSpan="2" NavigationUIVisibility="Hidden"></Frame>
+    </Grid>
+</Page>
